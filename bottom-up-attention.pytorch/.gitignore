@@ -1,0 +1,9 @@
+*.pt
+*.pth
+*.npz
+*__pycache__*
+models/bua/*
+apex/
+*.egg-info*
+build/
+detectron2
