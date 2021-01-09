@@ -69,3 +69,14 @@ python -u train_uniter.py --config meme_challenge/config/uniter-base.json --data
 ```
 
 Our trained models and CSV files corresponding to the results are available [here](https://drive.google.com/file/d/1QIQ1GJUxDT-OTo_lbMSnGN2c28PLU_C1/view?usp=sharing). The models are named `reproduce_fold_*.pt`. To run inference with these models, run the aforementioned command by replacing `meme.pt` with `reproduce.pt`.
+
+### Citation
+If you use this code, please consider citing the paper:
+```bib
+@article{lippe2020multimodal,
+  title={A Multimodal Framework for the Detection of Hateful Memes},
+  author={Lippe, Phillip and Holla, Nithin and Chandra, Shantanu and Rajamanickam, Santhosh and Antoniou, Georgios and Shutova, Ekaterina and Yannakoudakis, Helen},
+  journal={arXiv preprint arXiv:2012.12871},
+  year={2020}
+}
+```
