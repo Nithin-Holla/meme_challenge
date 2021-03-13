@@ -37,7 +37,7 @@ torch.save(state_dict, model_name)
 - Make a new directory: `mkdir data`.
 - Copy the HatefulMemes dataset to the `data` directory.
 - Extract image features as detailed [here](https://github.com/Nithin-Holla/meme_challenge/blob/master/bottom-up-attention.pytorch/README.md) into `data/own_features`.
-- Alternatively, we provide the extracted features [here](https://drive.google.com/file/d/1vTl31tkkm_kpOsL7f3rhGWQFke2y96g_/view?usp=sharing).
+- Alternatively, we provide the extracted features [here](https://drive.google.com/file/d/1R6ilAEmzH0gKfZCdbiSDmFj80PFxQh7R/view?usp=sharing).
 
 ### Training
 
