@@ -68,7 +68,7 @@ We provide the trained models, one each from the 15 folds. To run inference, run
 python -u train_uniter.py --config meme_challenge/config/uniter-base.json --data_path data/ --model_path meme_challenge/ --feature_path data/own_features/ --lr 3e-5 --scheduler warmup_cosine --warmup_steps 500 --max_epoch 0 --batch_size 16 --patience 5 --gradient_accumulation 2 --confounder_repeat 3 --pos_wt 1.8 --model_save_name meme.pt --seed 43 --num_folds -1 --crossval_dev_size 200 --crossval_use_dev
 ```
 
-Our trained models and CSV files corresponding to the results are available [here](https://drive.google.com/file/d/1QIQ1GJUxDT-OTo_lbMSnGN2c28PLU_C1/view?usp=sharing). The models are named `reproduce_fold_*.pt`. To run inference with these models, run the aforementioned command by replacing `meme.pt` with `reproduce.pt`.
+Our trained models and CSV files corresponding to the results are available [here](https://drive.google.com/file/d/1HdkL8yeGDQAV0XF_sizXJ9jP63gjHWk7/view?usp=sharing). The models are named `reproduce_fold_*.pt`. To run inference with these models, run the aforementioned command by replacing `meme.pt` with `reproduce.pt`.
 
 ### Citation
 If you use this code, please consider citing the paper:
